@@ -1,0 +1,297 @@
+.nav_div{
+    /*background-color: lightgreen;*/
+    padding: 1em;
+    border-radius: 0.5em;
+    color: darkblue;
+}
+
+/*change*/
+.nav_a{
+padding-right: 5vw;
+color: darkblue;
+text-decoration: none;
+font-size: 1.5em;
+}
+
+.body{
+    
+    margin: auto;
+    padding-top: 2.5em;
+    text-align: center;
+
+    background-image: url(../img/blue_background.avif);
+    background-repeat: none;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.nav_pad{
+    padding-left: 1em;
+    font-size: 1vw;
+}
+
+#h1_pad{
+    padding-left: 0.5;
+}
+
+
+.h1_welome{
+    color: silver;
+    font-size: 70px;
+    padding-top: 20vh;
+}
+
+#my_name{
+    color:#6f00ff ;
+}
+
+#footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color:#2fde86 ;
+    font-size: 1.3em;
+}
+
+#footer_div{
+    padding-top: 5em;
+}
+
+#table_id{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#img_logo{
+    padding: 20px;
+    size: 50px;
+}
+
+#handle_id{
+    padding-right: 50px;
+}
+
+#body_project{
+    text-decoration-color: #2596be;
+    text-align: center;
+}
+
+.row{
+clear:both;
+}
+
+.column{
+    float: left;
+    width: 33.33%;
+    margin-top: 8em;
+    color: #0011ff;
+}
+
+.project_info{
+    color: #8000ff;
+    font-size: 1.5em;
+}
+
+.column2{
+   float: left;
+   width: 33.33%;
+   margin-top: 1.5em;
+   color: #0011ff;
+}
+
+.nav_about{
+    background-color: #b3ebeb;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    color: #00ff9d;
+    /*padding: 0.1;*/
+    padding-top: 3.5em;
+    padding-bottom: 1.5em;
+}
+
+.body_about{
+    text-align: center;
+}
+
+.div1_about{
+    float: left;
+
+
+}
+
+.div2_about{
+    margin-right: 5px;
+    padding-top: 6.2em;
+    color: #b3ebeb;
+}
+
+#profile_img{
+    height: 100vh;
+    float: right;
+}
+
+#about_p{
+    font-size: 3em;
+    text-align: center;
+    color: blue;
+}
+
+#about_details{
+    text-align: justify;
+    font-size: 1.5em;
+    color: blue;
+}
+
+#myvideo{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.nav_game{
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    color: #00ff9d;
+    /*padding: 0.1;*/
+    padding-top: 3.5em;
+    padding-bottom: 1.5em;
+}
+
+#top_games{
+    position: fixed;
+    top: 45%;
+    width: 100%;
+    color: #2596be;
+    font-size: 50px;
+    left: 36%;
+
+}
+
+#my_name2{
+    color: #6600ff;
+}
+
+#my_name3{
+    color : #9700de;
+}
+
+#footer_game{
+    position: fixed;
+    bottom: 2%;
+    width: 100%;
+    color:#2fde86 ;
+    font-size: 1.3em;
+}
+
+.games_link{
+    color: #6600ff;
+    text-decoration: none;
+   /*margin-left: 30px;*/
+
+}
+
+#top_content{
+    position: fixed;
+    top: 20%;
+    width: 100%;
+    color: #6600ff;
+    font-size: 30px;
+
+}
+
+#my_name4{
+    color: #600bdf;
+}
+
+/*padding: 15px 0 15px 15px;*/
+
+.form_text{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+    padding: 15px 0 15px 15px;
+    margin-bottom: 10px;
+    resize: none;
+    text-decoration: none;
+    color: #ff0000;
+}
+
+#form{
+    position: fixed;
+    top: 30%;
+    width: 100%;
+    color: #6600ff;
+}
+
+#submit_button{
+    width: 100%;
+    background-color: #6600ff;
+    color: #fff;
+    height: 35px;
+    width: 200px;
+    border: none;
+    margin-top: 20px;
+
+}
+
+#copyright{
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    color: #600bdf;
+}
+
+.topnav a{
+    color: #6600ff;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+}
+
+.topnav a.icon {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.icon_back{
+    color: #9700de !important;
+}
+
+@media screen and (max-width:780px){
+    .topnav{
+    display:block;
+    }
+
+    .nav_div{
+        display: none;
+    }
+    .nav_about{
+        display: none;
+    }
+    #footer{
+        display: none;
+    }
+    #profile_img{
+    width: 100%;
+    height: auto;
+}
+
+    #footer_game{
+        display: none;
+    }
+    .nav_game{
+        display: none;
+    }
+}
+    
